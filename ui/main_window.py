@@ -24,7 +24,7 @@ class MainWindow(QMainWindow):
 
     def __init__(self, parent=None) -> None:
         super().__init__(parent)
-        self.setWindowTitle("Screen Recorder")
+        self.setWindowTitle("ScreenCapture360")
         self.setMinimumSize(420, 320)
         self.resize(480, 340)
 
@@ -54,7 +54,7 @@ class MainWindow(QMainWindow):
         layout.addWidget(icon_label)
 
         # Title
-        title = QLabel("Screen Recorder")
+        title = QLabel("ScreenCapture360")
         title.setObjectName("appTitle")
         title.setAlignment(Qt.AlignmentFlag.AlignCenter)
         layout.addWidget(title)

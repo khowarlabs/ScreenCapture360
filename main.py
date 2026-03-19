@@ -8,7 +8,7 @@ from ui.main_window import MainWindow
 
 def main() -> None:
     app = QApplication(sys.argv)
-    app.setApplicationName("Screen Recorder")
+    app.setApplicationName("ScreenCapture360")
     app.setOrganizationName("KhowarLabs")
 
     window = MainWindow()

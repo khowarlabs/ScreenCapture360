@@ -2,7 +2,7 @@
 package-mode = false
 
 [project]
-name = "video-recorder"
+name = "screencapture360"
 version = "0.1.0"
 description = "PyQt6 screen recorder application"
 authors = [

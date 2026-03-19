@@ -1,4 +1,4 @@
-# Screen Recorder
+# ScreenCapture360
 
 A lightweight PyQt6 desktop application for recording your screen or any application window.
 
@@ -8,8 +8,10 @@ A lightweight PyQt6 desktop application for recording your screen or any applica
 - 🪟 **Window recording** — capture a specific application window (follows the window if moved)
 - ⏸ **Pause / Resume** — pause mid-recording without ending the session
 - ⏹ **Stop** — finalise and save the recording
-- 🔴 **Floating controls** — draggable, always-on-top pill with a pulsing REC indicator
-- 💾 **Auto-save** — output saved to `~/Videos/screen_record_YYYYMMDD_HHMMSS.mp4`
+- 🎙 **Audio recording** — capture microphone input during screen recording
+- 🔊 **Audio/Video Muxing** — automatically combines audio and video into a single MP4
+- 🔴 **Floating controls** — draggable, always-on-top pill with a pulsing REC indicator and audio toggle
+- 💾 **Auto-save** — output saved to `~/Videos/ScreenCapture360_YYYYMMDD_HHMMSS.mp4`
 
 ## Requirements
 
@@ -22,10 +24,11 @@ A lightweight PyQt6 desktop application for recording your screen or any applica
 # 1. Install dependencies and create venv
 poetry install
 
-# 2. Run the app
+# 2. Run the application
 poetry run python main.py
 
 # 3. Build standalone executable (Windows)
+# This generates ScreenCapture360.exe in the dist/ folder
 poetry run python scripts/build_windows.py
 ```
 
@@ -33,7 +36,7 @@ poetry run python scripts/build_windows.py
 
 You can run the standalone executable directly without installing Python:
 1. Navigate to the `dist/` folder.
-2. Run `Screen Recorder.exe`.
+2. Run `ScreenCapture360.exe`.
 
 ### Professional Installer (Optional)
 
@@ -51,7 +54,7 @@ If you want to create a professional `.exe` installer (with wizard and uninstall
 ## Project Structure
 
 ```
-video_recorder/
+ScreenCapture360/
 ├── main.py                  # Entry point
 ├── requirements.txt
 ├── ui/

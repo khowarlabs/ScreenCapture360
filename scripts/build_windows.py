@@ -11,7 +11,7 @@ def build():
     # PyInstaller arguments
     args = [
         main_script,
-        "--name=Screen Recorder",
+        "--name=ScreenCapture360",
         "--onefile",
         "--windowed",
         "--clean",

@@ -30,12 +30,12 @@ VSVersionInfo(
       StringTable(
         '040904B0',
         [StringStruct('CompanyName', 'KhowarLabs'),
-        StringStruct('FileDescription', 'PyQt6 Screen Recorder'),
+        StringStruct('FileDescription', 'PyQt6 ScreenCapture360'),
         StringStruct('FileVersion', '0.1.0'),
-        StringStruct('InternalName', 'Screen Recorder'),
+        StringStruct('InternalName', 'ScreenCapture360'),
         StringStruct('LegalCopyright', 'Copyright (c) 2026 KhowarLabs'),
-        StringStruct('OriginalFilename', 'Screen Recorder.exe'),
-        StringStruct('ProductName', 'Screen Recorder'),
+        StringStruct('OriginalFilename', 'ScreenCapture360.exe'),
+        StringStruct('ProductName', 'ScreenCapture360'),
         StringStruct('ProductVersion', '0.1.0')])
       ]), 
     VarFileInfo([VarStruct('Translation', [1033, 1200])])
