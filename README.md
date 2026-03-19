@@ -71,3 +71,9 @@ ScreenCapture360/
 ## Output
 
 Videos are saved as `.mp4` (H.264) in `~/Videos/`.
+
+## License
+
+Copyright (c) 2026 KhowarLabs. All rights reserved. 
+
+The source code in this repository is proprietary. Unauthorized copying, modification, or redistribution of the code is strictly prohibited. See the [LICENSE](LICENSE) file for more details.
